@@ -19,6 +19,6 @@
     "postCreateCommand": "apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y build-essential g++ gdb && ./.devcontainer/init.sh",
     "runArgs": [
         "--security-opt",
-        "seccomp=/workspace/ghcodespace/.devcontainer/poplog_seccomp.json"
+        "seccomp=unconfined"
     ]
 }
