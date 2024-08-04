@@ -18,7 +18,7 @@
       "args": [
         {
           "index": 0,
-          "value": 0x40000, // ADDR_NO_RANDOMIZE
+          "value": 0x40000,
           "op": "SCMP_CMP_EQ"
         }
       ]
@@ -31,7 +31,7 @@
       "args": [
         {
           "index": 0,
-          "value": 0x4, // READ_IMPLIES_EXEC
+          "value": 0x4,
           "op": "SCMP_CMP_EQ"
         }
       ]
