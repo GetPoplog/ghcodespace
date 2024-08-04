@@ -18,7 +18,7 @@
       "args": [
         {
           "index": 0,
-          "value": 0x40000,
+          "value": 262144,
           "op": "SCMP_CMP_EQ"
         }
       ]
@@ -31,7 +31,7 @@
       "args": [
         {
           "index": 0,
-          "value": 0x4,
+          "value": 4,
           "op": "SCMP_CMP_EQ"
         }
       ]
