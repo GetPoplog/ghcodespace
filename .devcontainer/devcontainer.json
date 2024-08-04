@@ -19,5 +19,9 @@
             }      
         }
     },
-    "postCreateCommand": "apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y build-essential g++ gdb"
+    "postCreateCommand": "apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y build-essential g++ gdb",
+    "runArgs": [
+        "--security-opt",
+        "seccomp=unconfined"
+    ]
 }
